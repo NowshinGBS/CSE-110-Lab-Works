@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class lab01task11
+{
+public static void main (String [] args)
+{
+  Scanner fr = new Scanner(System.in);
+  int num = fr.nextInt();
+  
+  int c;
+  int sum=0;
+  for(c=1; c<=5; c++);
+  {
+  sum++;
+  }
+  avg=sum/5;
+  System.out.println("Avg :");
+}
+}

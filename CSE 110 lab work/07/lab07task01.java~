@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class lab07task01
+{
+  public static void main (String [] args)
+  {
+    Scanner fr = new Scanner(System.in);
+    int a [] = new int [3];
+    int sum=0;
+    int c;
+    for(c=0; c<=a.length-1; c++)
+    {
+      a[c]= fr.nextInt();
+      sum = sum + a[c];
+    }
+    System.out.println(sum);
+    int d;
+    for(d=a.length-1; d>=0; d--)
+    {
+      System.out.println(a[d]);
+    }
+  }
+}

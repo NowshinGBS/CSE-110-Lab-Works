@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class lsb05task12
+{
+  public static void mian (String [] args)
+  {
+    int sum =0; int c;
+    for(c=0; c<=600; c++)
+    {
+      if(%7==0)
+      {
+        if(9%==0)
+        {
+        }
+        else
+        {
+          System.out.println(c);
+        }
+      }
+      else
+      {
+        if(c%9==0)
+        {
+          System.out.println(c);
+        }
+        else
+        {
+        }
+      }
+    }
+  }
+}

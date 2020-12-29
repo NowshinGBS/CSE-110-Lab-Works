@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class lab08task05
+{
+  public static void main (String [] args)
+  {
+    int a = new int [10];
+    int c;
+    for(c=0; c<=a.length; c++)
+    {
+      Scanner fr = new Scanner(System.in);
+      a[c] = fr.nextInt();
+      Scanner fr.nextInt(System.in);
+      System.out.println("Please enter another number");
+      int num = fr.nextint();
+    }
+    if(num > a[c])
+    {
+      System.out.println("Yes");
+    }
+    else
+    {
+      System.out.println("No")
+    }
+  }
+}

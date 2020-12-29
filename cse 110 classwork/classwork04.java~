@@ -1,0 +1,21 @@
+import java.util.Scanner;
+{
+  public class classwork04
+  {
+    Scanner fr = new Scanner(System.in);
+    System.out.println("Please enter a number");
+    int num = fr.nextInt();
+    int sum = 0;
+    for(int c=0; c<=600; c++)
+    {
+      if(c%7)
+      {
+        sum = sum + c;
+      }
+      else(c%9)
+      {
+        sum = sum + c;
+      } 
+    }
+  }
+}

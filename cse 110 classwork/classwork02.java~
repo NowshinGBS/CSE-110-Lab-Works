@@ -1,0 +1,25 @@
+import java.util.Scanner;
+  public class classwork02
+  {
+    public static void main (String [] args)
+    {
+      Scanner fr = new Scanner(System.in);
+      System.out.println("Please enter a number");
+      int max = fr.nextInt();
+      System.out.println("Please enter a number");
+      int mini = fr.nextInt();
+      for(int c=1; c<=5; c++)
+      {
+        System.out.println("Enter a Max");
+        int num1 = fr.nextInt();
+        if(num>max)
+          max=num1;
+      System.out.println("Enter a Mini");
+        int num2 = fr.nextInt();
+        if(num>max)
+          mini=num2;
+      }
+      System.out.println(+max);
+    System.out.println(+mini);
+    }
+  }

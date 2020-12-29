@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class lab06task03
+{
+  public static void main (String [] args)
+  {
+    Scanner fr = new Scanner(System.in);
+    int num1;
+    int num2;
+    num1 = fr.nextInt();
+    num2 = fr.nextInt();
+    for(int c1=1; c1<=num1; c1++)
+    {
+      for(int c2=0; c<=num2; c2++)
+      {
+      System.out.print(*);
+    }
+  }
+}
+}

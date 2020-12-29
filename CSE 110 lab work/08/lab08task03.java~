@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class lab08task03
+{
+  public static void main (String [] args)
+  { 
+    int a[] = new int [10];
+    int c;
+    for(c=0; c<=a.length-1; c++)
+    {
+      Scanner fr = new Scanner(System.in);
+      // prothomei jodi [Scanner fr = new Scanner(System.in)] tahole bar bar input nite hole
+    //bar bar ei line ta likhar dorkar nai
+     a[c] = fr.nextInt();
+      System.out.println("Please enter a number");
+    }
+    int d;
+    for(d=a.length-1; d>=0; d--)
+    {
+      System.out.println(a[d]);
+    }
+  }
+}
